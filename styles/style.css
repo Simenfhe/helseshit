@@ -1,0 +1,292 @@
+nav {
+  width: 90vw;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #013321;
+  color: white;
+  font-size: 4vh;
+  padding: 1.5vh 2rem;
+}
+
+#linje {
+  width: 95vw;
+  height: 1px;
+  background-color: grey;
+  margin: 2vh auto;
+}
+
+h1,
+h2,
+#scroll {
+  margin: 5vh auto;
+  color: #013321;
+  text-align: center;
+}
+
+h1 {
+  width: 80vw;
+  font-size: 10vh;
+}
+
+h2 {
+  width: 65vw;
+  font-size: 5vh;
+}
+
+h4 {
+  width: 40vw;
+  background-color: #534741;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  padding: 1.5vh 3rem;
+  font-size: 3vh;
+  opacity: 60%;
+}
+
+h5 {
+  color: #013321;
+  font-size: 6vh;
+  margin: 10vh 4vh;
+}
+
+th {
+  color: #013321;
+  font-size: 2rem;
+}
+
+td {
+  color: #013321;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+table {
+  border: 2px black solid;
+  margin: 2rem;
+}
+
+#scroll {
+  font-size: 4vh;
+  margin-bottom: -5vh;
+}
+
+#pil {
+  width: 25vh;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 50vw;
+  height: 40vh;
+}
+
+img {
+  width: auto;
+  height: 25vh;
+  margin: 0 auto;
+}
+
+.banner,
+.banner_center,
+.banner_center_sub {
+  color: white;
+  background-color: #013321;
+  width: 70vw;
+  padding: 1rem 2rem;
+}
+
+.banner {
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+
+.banner_center,
+.banner_center_sub {
+  margin: 5vh auto;
+  text-align: center;
+}
+
+.banner_center {
+  font-size: 8vh;
+}
+
+.banner_center_sub {
+  font-size: 4vh;
+}
+
+.textbox {
+  border: 1px solid #013321;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 70ch;
+}
+
+footer {
+  height: 25vh;
+  background-color: #013321;
+  margin-top: 5rem;
+}
+
+.queries,
+.video_container,
+.read_container {
+  display: -ms-grid;
+  display: grid;
+  width: 80vw;
+  margin: 3vh auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.queries {
+  height: 50vh;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.queries > li {
+  font-size: 3vh;
+}
+
+.Video {
+  width: 40vw;
+  height: auto;
+  border: 2px black solid;
+}
+
+.video_container {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.video,
+.video_container > p {
+  place-self: center;
+  width: 80%;
+}
+
+.read_container {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.read_container > li {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 5vh;
+          column-gap: 5vh;
+}
+
+#boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#boxes > a > img {
+  width: 25vw;
+  height: 15vh;
+  border-radius: 50px;
+  margin: 0 1rem;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  pointer-events: auto;
+}
+
+li {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  pointer-events: none;
+}
+
+li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+a:hover {
+  color: blue;
+}
+
+p {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */

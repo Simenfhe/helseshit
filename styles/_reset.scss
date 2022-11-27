@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  pointer-events: auto;
+}
+
+li {
+  transition: transform 0.5s;
+  pointer-events: none;
+}
+
+li:hover {
+  transform: scale(1.2);
+}
+
+a:hover {
+  color: blue;
+}
+
+p {
+  font-size: 1.2rem;
+}
