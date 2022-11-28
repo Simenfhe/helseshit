@@ -18,6 +18,9 @@ nav {
         font-size: 4vh;
         padding: 1.5vh 2rem;
       }
+      a:hover{
+        color: white;
+      }
     }
   }
 }
@@ -45,6 +48,7 @@ h1 {
 h2 {
   width: 65vw;
   font-size: 5vh;
+  margin-bottom: 35vh;
 }
 
 h4 {
@@ -62,6 +66,12 @@ h5 {
   color: $green;
   font-size: 6vh;
   margin: 10vh 4vh;
+}
+
+h6{
+  font-size: 2rem;
+  color: $green;
+  margin: 2rem;
 }
 
 th {
@@ -95,11 +105,7 @@ iframe {
   height: 40vh;
 }
 
-img {
-  width: auto;
-  height: 25vh;
-  margin: 0 auto;
-}
+
 
 .banner,
 .banner_center,
@@ -130,7 +136,6 @@ img {
 }
 
 .textbox {
-  border: 1px solid $green;
   padding: 1rem;
   margin: 0.5rem;
   width: 70ch;
@@ -144,7 +149,7 @@ footer {
 
 .queries,
 .video_container,
-.read_container {
+.read_container,.tutorial_container {
   display: grid;
   width: 80vw;
   margin: 3vh auto;
@@ -201,4 +206,56 @@ footer {
   height: 15vh;
   border-radius: 50px;
   margin: 0 1rem;
+}
+
+.tutorial_container > li,#login > a{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  
+}
+#login > a{
+  display: grid;
+  width: 80vw;
+  margin: 3vh auto;
+  align-items: center;
+}
+.tutorial_container > p{
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.tutorial_container > a{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem auto;
+  text-decoration: underline;
+}
+
+.tutorial_container > li > *{
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.tutorial_container > li > img{
+  place-self: left;
+  height: auto;
+  width: 30vw;
+}
+
+#login > a > p{
+  font-size: 2rem;
+
+}
+
+#velgbank {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+#velgbank > a >img {
+  width: 20vw;
+  height: auto;
 }
