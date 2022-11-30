@@ -18,7 +18,7 @@ nav {
         font-size: 4vh;
         padding: 1.5vh 2rem;
       }
-      a:hover{
+      a:hover {
         color: white;
       }
     }
@@ -68,7 +68,7 @@ h5 {
   margin: 10vh 4vh;
 }
 
-h6{
+h6 {
   font-size: 2rem;
   color: $green;
   margin: 2rem;
@@ -104,8 +104,6 @@ iframe {
   width: 50vw;
   height: 40vh;
 }
-
-
 
 .banner,
 .banner_center,
@@ -149,7 +147,8 @@ footer {
 
 .queries,
 .video_container,
-.read_container,.tutorial_container {
+.read_container,
+.tutorial_container {
   display: grid;
   width: 80vw;
   margin: 3vh auto;
@@ -208,54 +207,56 @@ footer {
   margin: 0 1rem;
 }
 
-.tutorial_container > li,#login > a{
+.tutorial_container > li,
+#login > a {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-bottom: 4rem;
   padding: 1rem;
-  
 }
-#login > a{
+#login > a {
   display: grid;
   width: 80vw;
   margin: 3vh auto;
   align-items: center;
 }
-.tutorial_container > p{
+.tutorial_container > p {
   margin: 0 auto;
   font-size: 2rem;
 }
 
-.tutorial_container > a{
+.tutorial_container > a {
   font-size: 1.5rem;
   text-align: center;
   margin: 1rem auto;
   text-decoration: underline;
 }
 
-.tutorial_container > li > *{
+.tutorial_container > li > * {
   margin: 0 1rem;
   font-size: 2rem;
 }
 
-.tutorial_container > li > img{
+.tutorial_container > li > img {
   place-self: left;
   height: auto;
-  width: 30vw;
+  width: auto;
+  max-height: 70vh;
 }
 
-#login > a > p{
+#login > a > p {
   font-size: 2rem;
-
 }
 
-#velgbank {
+#bildevalg {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
 }
 
-#velgbank > a >img {
+#bildevalg > a > img {
   width: 20vw;
   height: auto;
+  margin-top: 5rem;
 }

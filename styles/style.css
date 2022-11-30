@@ -153,7 +153,8 @@ footer {
 
 .queries,
 .video_container,
-.read_container, .tutorial_container {
+.read_container,
+.tutorial_container {
   display: -ms-grid;
   display: grid;
   width: 80vw;
@@ -228,7 +229,8 @@ footer {
   margin: 0 1rem;
 }
 
-.tutorial_container > li, #login > a {
+.tutorial_container > li,
+#login > a {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -267,14 +269,16 @@ footer {
 .tutorial_container > li > img {
   place-self: left;
   height: auto;
-  width: 30vw;
+  width: auto;
+  max-height: 70vh;
 }
 
 #login > a > p {
   font-size: 2rem;
 }
 
-#velgbank {
+#bildevalg {
+  margin-top: 2rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -282,9 +286,10 @@ footer {
   place-items: center;
 }
 
-#velgbank > a > img {
+#bildevalg > a > img {
   width: 20vw;
   height: auto;
+  margin-top: 5rem;
 }
 
 *,
