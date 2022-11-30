@@ -15,7 +15,6 @@
   text-size-adjust: none;
 }
 
-footer,
 header,
 nav,
 section,
@@ -36,22 +35,13 @@ li {
 a {
   text-decoration: none;
   color: black;
-  pointer-events: auto;
 }
 
-/*li {
-  transition: transform 0.5s;
-  pointer-events: none;
-}
 
-li:hover {
-  transform: scale(1.2);
-}
-
-a:hover {
+a:hover,#footnav > li > a:hover {
   color: blue;
 }
-*/
+
 p {
   font-size: 1.2rem;
 }

@@ -139,11 +139,11 @@ iframe {
   width: 70ch;
 }
 
-footer {
-  height: 25vh;
-  background-color: $green;
-  margin-top: 5rem;
+#namelist{
+  font-size: 1.2rem;
 }
+
+
 
 .queries,
 .video_container,
@@ -242,6 +242,7 @@ footer {
   height: auto;
   width: auto;
   max-height: 70vh;
+  max-width: 35vw;
 }
 
 #login > a > p {
@@ -255,8 +256,40 @@ footer {
   place-items: center;
 }
 
+
 #bildevalg > a > img {
   width: 20vw;
   height: auto;
   margin-top: 5rem;
+}
+
+
+address > a{
+  text-decoration: underline;
+}
+
+
+address,address > a,#footnav > li > a{
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+address,#footnav{
+  padding: 2rem;
+  width: 40vw;
+}
+
+
+footer {
+  background-color: $green;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+footer > div{
+  justify-self: end;
+  text-align: center;
 }

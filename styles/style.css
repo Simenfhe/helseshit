@@ -145,10 +145,8 @@ iframe {
   width: 70ch;
 }
 
-footer {
-  height: 25vh;
-  background-color: #013321;
-  margin-top: 5rem;
+#namelist {
+  font-size: 1.2rem;
 }
 
 .queries,
@@ -271,6 +269,7 @@ footer {
   height: auto;
   width: auto;
   max-height: 70vh;
+  max-width: 35vw;
 }
 
 #login > a > p {
@@ -290,6 +289,35 @@ footer {
   width: 20vw;
   height: auto;
   margin-top: 5rem;
+}
+
+address > a {
+  text-decoration: underline;
+}
+
+address, address > a, #footnav > li > a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+address, #footnav {
+  padding: 2rem;
+  width: 40vw;
+}
+
+footer {
+  background-color: #013321;
+  margin-top: 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+footer > div {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  text-align: center;
 }
 
 *,
@@ -313,7 +341,6 @@ footer {
           text-size-adjust: none;
 }
 
-footer,
 header,
 nav,
 section,
@@ -334,22 +361,12 @@ li {
 a {
   text-decoration: none;
   color: black;
-  pointer-events: auto;
 }
 
-/*li {
-  transition: transform 0.5s;
-  pointer-events: none;
-}
-
-li:hover {
-  transform: scale(1.2);
-}
-
-a:hover {
+a:hover, #footnav > li > a:hover {
   color: blue;
 }
-*/
+
 p {
   font-size: 1.2rem;
 }
