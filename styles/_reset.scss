@@ -13,6 +13,8 @@
   vertical-align: baseline;
   text-rendering: optimizeLegibility;
   text-size-adjust: none;
+  scroll-behavior: smooth;
+  font-family: 'Open Sans';
 }
 
 header,
@@ -24,6 +26,7 @@ main {
 
 body {
   line-height: 1;
+  background-color: rgb(244, 244, 244);
 }
 
 ol,
@@ -38,10 +41,13 @@ a {
 }
 
 
-a:hover,#footnav > li > a:hover {
+#footnav > li > a:hover {
   color: blue;
+  
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
+
+
