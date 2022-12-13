@@ -19,74 +19,75 @@
     </nav>
     <div id="linje"></div>
     <h1>Vipps hjelp</h1>
-    <div class="tutorial_container">
-      <h6>Registrere bruker hos vipps:</h6>
+    
+  
+      <!-- Container for the image gallery -->
+  <div class="container app">
+  
+      <!-- Full-width images with number text -->
+      <div class="mySlides" style="display: block;">
+        <div class="numbertext">1 / 6</div>
+          <img src="../../data/vipps1.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="../../data/vipps2.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="../../data/vipps3.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="../../data/vipps4.jpg" style="width:100%">
+      </div>
 
-      <h6>Steg 1.</h6>
-      <li>
-        <img src="../../data/vipps1.jpg" alt="" />
-        <p>
-          Først åpne app store, dette kan gjøres ved å dra nedover på skjermen
-          for så å søke opp app store.
-        </p>
-      </li>
-      <h6>Steg 2.</h6>
-      <li>
-        <img src="../../data/vipps2.jpg" alt="" />
-        <p>Så trykke på søk nederst til venstre i hjørnet.</p>
-      </li>
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="../../data/vipps5.jpg" style="width:100%">
+      </div>
 
-      <h6>Steg 3.</h6>
-      <li>
-        <img src="../../data/vipps3.jpg" alt="" />
-        <p>
-          Søk på vipps og trykk på nedlast, om du har lastet ned appen før er
-          det et skysymbol isteden, trykk på den.
-        </p>
-      </li>
-
-      <h6>Steg 4.</h6>
-      <li>
-        <img src="../../data/vipps4.jpg" alt="" />
-        <p>
-          Åpne appen og logg inn om du har bruker, hvis ikke trykk registrer deg
-          for å lage en bruker.
-        </p>
-      </li>
-
-      <h6>Steg 5.</h6>
-      <li>
-        <img src="../../data/vipps5.jpg" alt="" />
-        <p>Skriv inn navnet ditt så trykk neste.</p>
-      </li>
-
-      <h6>Steg 6.</h6>
-      <li>
-        <img src="../../data/vipps6.jpg" alt="" />
-        <p>Skriv inn fødselsnummer også logg inn med bank id.</p>
-      </li>
-
-      <h6>Videre</h6>
-      <p>
-        Om du trenger hjelp til bank id, trykk på delen du trenger hjelp med
-        under.
-      </p>
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="../../data/vipps6.jpg" style="width:100%">
+      </div>
+    
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption">Sørg først for at du er på dnb privat ved å trykke der det står privat. I rød boks på bildet.</p>
+      </div>
+    
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor active" src="../../data/vipps1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Først åpne opp app store, dette kan gjøres ved å dra nedover på skjermen for så å søke opp app store.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../../data/vipps2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Så trykke søk nederst til venstre i hjørnet.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../../data/vipps3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Søk på vipps og trykk på nedlast, om du har lastet ned appen før er det et skysymbol isteden, trykk på den.">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../../data/vipps4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Åpne appen og logg inn om du har bruker, hvis ikke trykk registrer deg for å lage en bruker">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../../data/vipps5.jpg" style="width:100%" onclick="currentSlide(5)" alt="skriv navnet ditt og trykk neste">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../../data/vipps6.jpg" style="width:100%" onclick="currentSlide(6)" alt="skriv inn fødselsnummer også logg inn med bank id">
+        </div>
+        </div>
+      </div>
     </div>
-
-    <li id="login">
-      <a href=""
-        ><img src="../../data/login_bankid.PNG" alt="" />
-        <p>Bank id</p></a
-      >
-      <a href=""
-        ><img src="../../data/login_engangskode.PNG" alt="" />
-        <p>Engangskode mobil</p></a
-      >
-      <a href=""
-        ><img src="../../data/login_kodebrikke.PNG" alt="" />
-        <p>Kodebrikke</p></a
-      >
-    </li>
 
     <footer>
       <address>
@@ -107,5 +108,6 @@
         <li><a href="">TV</a></li>
       </div>
     </footer>
+    <script src="../../scipt.js"></script>
   </body>
 </html>
